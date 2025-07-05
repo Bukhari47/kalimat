@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3a0108;
+  --color-header: #a2878b;
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-instrument: "Instrument Serif", serif;
+  --font-instrument-sans: "Instrument Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+.font-instrument-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic !important;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    135deg,
+    #7f1d1d 0%,
+    #991b1b 25%,
+    #7f1d1d 50%,
+    #450a0a 100%
+  );
+}
+
+.light-beam {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.1) 20%,
+    rgba(255, 255, 255, 0.3) 40%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.3) 60%,
+    rgba(255, 255, 255, 0.1) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: blur(1px);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.framer-badge {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+}
